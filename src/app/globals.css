@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-jakarta: var(--font-jakarta);
+}
+
+* {
+  @apply font-jakarta;
+}
