@@ -2,43 +2,5 @@
 > @transporte/ui@0.1.0 build C:\Users\laszlo\Downloads\uni\admin\entrafesa\ui
 > next build
 
-⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
- We detected multiple lockfiles and selected the directory of C:\Users\laszlo\pnpm-lock.yaml as the root directory.
- To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
-   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
- Detected additional lockfiles: 
-   * C:\Users\laszlo\Downloads\uni\admin\entrafesa\ui\pnpm-workspace.yaml
-   * C:\Users\laszlo\Downloads\uni\admin\entrafesa\pnpm-workspace.yaml
-
-▲ Next.js 16.2.2 (Turbopack)
-- Environments: .env
-
-  Creating an optimized production build ...
-✓ Compiled successfully in 18.5s
-  Running TypeScript ...
-  Finished TypeScript in 9.9s ...
-  Collecting page data using 11 workers ...
-  Generating static pages using 11 workers (0/10) ...
-  Generating static pages using 11 workers (2/10) 
-  Generating static pages using 11 workers (4/10) 
-  Generating static pages using 11 workers (7/10) 
-✓ Generating static pages using 11 workers (10/10) in 2.8s
-  Finalizing page optimization ...
-
-Route (app)             Revalidate  Expire
-┌ ○ /                           1m      1y
-├ ○ /_not-found
-├ ○ /agencias
-├ ƒ /agencias/[id]
-├ ○ /auth/login
-├ ○ /auth/register
-├ ○ /perfil
-├ ƒ /reservas
-└ ○ /reservas/completo
-
-
-ƒ Proxy (Middleware)
-
-○  (Static)   prerendered as static content
-ƒ  (Dynamic)  server-rendered on demand
-
+You are using Node.js 16.20.2. For Next.js, Node.js version ">=20.9.0" is required.
+ ELIFECYCLE  Command failed with exit code 1.
